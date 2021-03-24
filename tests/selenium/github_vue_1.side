@@ -1,20 +1,20 @@
 {
-  "id": "cd1ae6c1-1e31-4350-9e52-f4f6c00a552d",
+  "id": "7f4fcf89-895f-4788-bf02-3c0502f435e4",
   "version": "2.0",
   "name": "github_vue_1",
   "url": "http://localhost/",
   "tests": [{
-    "id": "70a1fdfd-8d69-4a99-9ea0-f8022e6e20d1",
+    "id": "08fbbf4d-c46e-42f9-bec2-fc9b3a064999",
     "name": "1",
     "commands": [{
-      "id": "1b7058f0-c6e8-4102-95e0-fa8040cc6eb1",
+      "id": "be51ccdf-b5c3-4565-984a-a666789fc60b",
       "comment": "",
       "command": "open",
-      "target": "1280x800",
+      "target": "http://localhost/",
       "targets": [],
-      "value": "http://localhost/"
+      "value": ""
     }, {
-      "id": "12e76b6a-33b9-4cba-8c56-532432a8ad80",
+      "id": "cf4cd372-b7a5-4775-9568-9dc3f5d2c32a",
       "comment": "",
       "command": "assertText",
       "target": "css=p:nth-child(3)",
@@ -22,18 +22,18 @@
         ["css=p:nth-child(3)", "css:finder"],
         ["xpath=//div[@id='app']/p", "xpath:idRelative"],
         ["xpath=//div[3]/p", "xpath:position"],
-        ["xpath=//p[contains(.,'Hello World!')]", "xpath:innerText"]
+        ["xpath=//p[contains(.,'Hello World!!')]", "xpath:innerText"]
       ],
-      "value": "Hello World!"
+      "value": "Hello World!!"
     }]
   }],
   "suites": [{
-    "id": "5b104dea-b92a-41a8-8c49-d1055cdb9483",
+    "id": "d695e7f0-c0f8-48ae-bf0b-fb90bc7fe930",
     "name": "Default Suite",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["70a1fdfd-8d69-4a99-9ea0-f8022e6e20d1"]
+    "tests": ["08fbbf4d-c46e-42f9-bec2-fc9b3a064999"]
   }],
   "urls": ["localhost"],
   "plugins": []
